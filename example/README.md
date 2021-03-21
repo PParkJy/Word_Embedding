@@ -1,7 +1,11 @@
 # 실행환경 
-
-- **python version** : 3.7.7     
+## 1. Word2Vec (word2vec.py)
+- **OS** : CentOS 7 or Windows10
+- **python version** : 3.6+     
 - **Requiremnets** : **gensim** <code>pip install gensim==3.8.3</code>     
 　　　　　　　**nltk** <code>pip install nltk==3.5</code>    
 　　　　　　　**lxml** <code>pip install lxml==4.6.2</code> (필수 아님)    
-　　　　　　　**glove** <code>pip install glove-python-binary==0.2.0</code>    
+## 2. GloVe (GloVe.py)
+- **OS** : CentOS 7 (Windows에서는 종속성 관련 오류 발생)
+- **python version** : 3.6+     
+- **Requiremnets** : **glove** <code>pip install glove-python-binary==0.2.0</code>   
