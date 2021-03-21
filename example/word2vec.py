@@ -2,6 +2,9 @@ from nltk.tokenize import word_tokenize
 from gensim.models import Word2Vec
 from callback import callback
 
+# Required at first time only
+# nltk.download('punkt')
+
 # Load data
 f = open("./dataset/preprocessed_data.txt", "r")
 text = f.readlines()
@@ -25,6 +28,6 @@ test = model.wv["world"]
 print(len(test))
 
 # Similarity
-test = model.wv.most_similar(positive=["happy"])
+test = model.wv.most_similar(positive=["home"])
 print(test)
 
