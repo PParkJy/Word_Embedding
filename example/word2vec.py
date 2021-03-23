@@ -37,7 +37,7 @@ X = model[vocab]
 #print(len(X))
 
 tsne = TSNE(n_components=2)
-X_tsne = tsne.fit_transform(X[:200,:]) # select 100 words
+X_tsne = tsne.fit_transform(X[:200,:]) # select 200 words
 
 df = pd.DataFrame(X_tsne, index=vocab[:200], columns=['x', 'y'])
 #print(df.head(10))
