@@ -16,4 +16,5 @@
 　　　　　　　**nltk** <code>pip install nltk==3.5</code>     
 　　　　　　　**sklearn** <code>pip install scikit-learn==0.23.1</code>     
 　　　　　　　**matplotlib** <code>pip install matplotlib==3.2.1</code>      
-　　　　　　　**pandas** <code>pip install pandas==1.0.4</code> 
+　　　　　　　**pandas** <code>pip install pandas==1.0.4</code>      
+　　　　　　　**numpy** <code>pip install numpy==1.16.0</code>    
