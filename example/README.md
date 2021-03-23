@@ -14,7 +14,7 @@
 - **python** : 3.6+     
 - **Requiremnets** : **glove** <code>pip install glove-python-binary==0.2.0</code>    
 　　　　　　　**nltk** <code>pip install nltk==3.5</code>     
-　　　　　　　**sklearn** <code>pip install scikit-learn==0.23.1</code>     
-　　　　　　　**matplotlib** <code>pip install matplotlib==3.2.1</code>      
-　　　　　　　**pandas** <code>pip install pandas==1.0.4</code>      
-　　　　　　　**numpy** <code>pip install numpy==1.16.0</code>    
+　　　　　　　**sklearn** <code>pip install scikit-learn==0.23.1</code> (필수 아님)        
+　　　　　　　**matplotlib** <code>pip install matplotlib==3.2.1</code> (필수 아님)       
+　　　　　　　**pandas** <code>pip install pandas==1.0.4</code> (필수 아님)          
+　　　　　　　**numpy** <code>pip install numpy==1.16.0</code> (필수 아님)        
